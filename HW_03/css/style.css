@@ -1,0 +1,47 @@
+header {
+    padding: 20px;
+}
+
+.main_title {
+    margin: 20px;
+    color:rgb(2, 54, 244);
+    font-size: 38px;
+}
+
+li div {
+    padding: 20px;
+}
+.items > div.item {
+    margin: 30px;
+}
+
+[href^="https://anga"] {
+    color:rgb(5, 64, 227);
+    font-size: 32px;
+}
+
+.country_sel span {
+    color:rgb(238, 213, 20);
+    font-size: 22px;
+}
+
+[href$="vidvidati"] {
+    color:rgb(112, 7, 241);
+    font-size: 32px;
+}
+
+.text * {
+    color:rgb(14, 153, 239);
+}
+.item > .title {
+    color:rgb(243, 164, 5);
+    font-size: 24px;
+}
+[src$="jpg"] + p {
+    color:rgb(236, 64, 17);
+}
+
+.items > .title {
+    color: rgb(196, 30, 30);
+font-size: 32px;
+}
