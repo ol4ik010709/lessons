@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header_link {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;color:blueviolet;
+}
+
+main {
+    max-width: 643px;
+    background-color: #FFF3E3;
+    padding: 60px 40px 37px;
+    margin: 20px auto;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-size: 52px;
+    color:#B88E2F;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 1.25;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 45px;
+    line-height: 1.3;
+}
+.btn {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #B88E2F;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 25px 72px;
+    text-align: center;
+}
+
+.exemple{
+padding: 20px;
+background-color: rgb(186, 177, 215);
+}
+
+.exemple > .item {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item {
+    border:1px solid grey;
+    padding: 20px;
+    
+
+}
+
+.first {
+    width: 1000px;
+    background-color: rgb(180, 187, 244);
+color: aliceblue;
+
+}
+.sec {
+    min-width: 1000px;
+    background-color: rgb(182, 173, 236);
+color: aliceblue;
+}
+.third {
+    max-width: 1000px;
+    background-color: rgb(209, 164, 235);
+    color: aliceblue;
+}
+footer {
+    background-color: #23c8e5;
+    padding: 20px;
+     color: aliceblue;
+}
+footer > * {
+   margin-bottom: 10px; 
+}
