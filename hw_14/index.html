@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:regular,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>HW 14</title>
+  </head>
+  <body>
+    <div id="top" class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <h1 class="header__title">HOME WORK 14</h1>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="page__container">
+          <h2 class="page__title">My Form</h2>
+          <form
+            action="#"
+            enctype="multipart/form-data"
+            class="page__form form"
+          >
+            <div class="form__user-name">
+              <label for="user-name">Your name</label>
+              <input
+                id="user-name"
+                type="text"
+                placeholder="Abc"
+                name="form[]"
+                required
+              />
+            </div>
+            <div class="form__user-mail">
+              <label for="user-mail">Email address</label>
+              <input
+                id="user-mail"
+                type="email"
+                placeholder="Abc@def.com"
+                name="form[]"
+                required
+              />
+            </div>
+            <div class="form__subject">
+              <label for="subject">Subject</label>
+              <input
+                id="subject"
+                type="text"
+                placeholder="This is an optional"
+                name="form[]"
+              />
+            </div>
+            <div class="form__message">
+              <label for="message">Message</label>
+              <textarea
+                name="form[]"
+                id="message"
+                placeholder="Hi! i’d like to ask about"
+              ></textarea>
+            </div>
+
+            <div class="form__radio radio">
+              <h3 class="radio__title">Size</h3>
+              <div class="radio__wrap wrap-size">
+                <div>
+                  <input type="radio" value="L" name="form[size]" /><span
+                    >L</span
+                  >
+                </div>
+                <div>
+                  <input type="radio" value="XL" name="form[size]" /><span
+                    >XL</span
+                  >
+                </div>
+                <div>
+                  <input type="radio" value="XS" name="form[size]" /><span
+                    >XS</span
+                  >
+                </div>
+              </div>
+              <h3 class="radio__title">Color</h3>
+              <div class="radio__wrap wrap-color">
+                <div>
+                  <input type="radio" value="purpur" name="form[color]" />
+                </div>
+                <div>
+                  <input type="radio" value="black" name="form[color]" />
+                </div>
+                <div>
+                  <input type="radio" value="brown" name="form[color]" />
+                </div>
+              </div>
+            </div>
+            <div class="form__submit">
+              <button type="submit" class="form__btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="#top" class="footer__link"></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
